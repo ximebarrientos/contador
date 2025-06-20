@@ -1,9 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css"
+import Informacion from "./components/Informacion"
 
 function App() {
   
   return (
-    <h1>Hola Mundo</h1>
+    <>
+    <h1>Primer proyecto de react</h1>
+    <Informacion></Informacion>
+    </>
   )
   }
 
