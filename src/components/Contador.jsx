@@ -13,7 +13,7 @@ const Contador = () => {
             <h2 className="tituloContador">Contador</h2>
             <h3>N°: {numero}</h3>
             <button className="btn btn-primary me-2" onClick={()=>setNumero(numero+1)}>+</button>
-            <button className="btn btn-danger">-</button>
+            <button className="btn btn-danger" onClick={()=>setNumero(numero-1)}>-</button>
         </div>
     );
 };
