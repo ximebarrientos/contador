@@ -1,8 +1,13 @@
+import { useState } from "react";
+
+
 const Contador = () => {
-    let numero=1;
+    const [numero,setNumero]=useState(1) //asi declaro un estado
+    //let numero=1;
 
     const sumar=()=>{
-        numero++
+        setNumero(numero+1)
+        
     }
     return (
         <div className="mt-3 text-center">
